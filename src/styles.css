@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #272237;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .form {
+    margin-top: 80px;
+    display: flex;
+    gap: 10px;
+}
+
+.wrapper .form input {
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(151, 151, 151);
+    color: white;
+}
+
+.wrapper .form button {
+    background: #52e463;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.wrapper .form button:hover {
+    background: #33853c;
+    cursor: pointer;
+}
+
+.containerTask {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.task {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #37294f;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.task .containerTask__button {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+}
+
+.task .editBtn {
+    background: #52e463;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    color: black;
+    font-weight: 700;
+}
+
+.task .deleteBtn {
+    background: #cf004c;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.formToEdit {
+    display: flex;
+    gap: 5px;
+}
+
+.formToEdit input {
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid rgb(151, 151, 151);
+    outline: none;
+}
+
+.formToEdit button {
+    background: #52e463;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    color: black;
+    font-weight: 700;
+}
